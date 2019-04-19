@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>StarWars API Search Tool</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Star Wars</h1>
+      <h2>Character Appearance Count</h2>
+
+      <form onsubmit="return false">
+        <input
+          id="userInput"
+          type="text"
+          placeholder="Enter search term"
+          required
+        />
+        <button type="button" id="search">Search</button>
+      </form>
+
+      <p id="returnData">
+        Search the SwAPI database to discover which films feature your
+        character!
+      </p>
+    </main>
+    <script src="./script.js"></script>
+    <footer><p>&copy; Matt Roth 2019</p></footer>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  background-color: #0a0000;
+  color: #f9d71c;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input {
+  border: 0;
+  background: #ffe5c0;
+  box-shadow: none;
+  height: 2em;
+}
+
+#search {
+  border: 0;
+  background: white;
+  box-shadow: none;
+  height: 2em;
+}
+
+#returnData {
+  margin: auto;
+  margin-top: 3em;
+  max-width: 80vw;
+  font-size: 2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99vw;
+}
