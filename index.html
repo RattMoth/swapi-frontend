@@ -12,26 +12,30 @@
     />
   </head>
   <body>
-    <main>
-      <h1>Star Wars</h1>
-      <h2>Character Appearance Count</h2>
+    <div id="page-container">
+      <div id="content">
+        <main>
+          <h1>Star Wars</h1>
+          <h2>Character Appearance Count</h2>
 
-      <form onsubmit="return false">
-        <input
-          id="userInput"
-          type="text"
-          placeholder="Enter search term"
-          required
-        />
-        <button type="button" id="search">Search</button>
-      </form>
+          <form onsubmit="return false">
+            <input
+              id="userInput"
+              type="text"
+              placeholder="Enter search term"
+              required
+            />
+            <button type="button" id="search">Search</button>
+          </form>
 
-      <p id="returnData">
-        Search the SwAPI database to discover which films feature your
-        character!
-      </p>
-    </main>
-    <script src="./script.js"></script>
-    <footer><p>&copy; Matt Roth 2019</p></footer>
+          <p id="returnData">
+            Search the SwAPI database to discover which films feature your
+            character!
+          </p>
+        </main>
+        <script src="./script.js"></script>
+      </div>
+      <footer><p>&copy; Matt Roth 2019</p></footer>
+    </div>
   </body>
 </html>
