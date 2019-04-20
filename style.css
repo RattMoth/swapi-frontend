@@ -16,12 +16,14 @@ body {
 
 h1 {
   text-transform: uppercase;
+  transform: perspective(300px) rotateX(25deg);
   font-size: 5rem;
   margin-bottom: 0;
 }
 
 h2 {
   margin-top: 0;
+  transform: perspective(300px) rotateX(25deg);
 }
 
 input {
