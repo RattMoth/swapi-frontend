@@ -9,7 +9,7 @@ const makeRequest = async () => {
     returnData.innerHTML = 'Loading ...';
 
     const { value } = input;
-    const response = await fetch(`https://swapi.co/api/people/?search=${value}`);
+    const response = await fetch(`https://swapi.dev/api/people/?search=${value}`);
     const data = await response.json();
 
     const { name, films } = data.results[0];
